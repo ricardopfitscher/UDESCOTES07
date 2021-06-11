@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "title": "Exemplo",
+    "owner": "Ricardo Pfitscher",
+    "description": "Fabrikam"
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "title": "Exemplo 1",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ],
+    "reviewer": "Ricardo Pfitscher"
+  }
+}
