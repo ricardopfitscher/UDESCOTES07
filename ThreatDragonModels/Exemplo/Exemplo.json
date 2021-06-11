@@ -10,7 +10,135 @@
       {
         "title": "Exemplo 1",
         "thumbnail": "./public/content/images/thumbnail.jpg",
-        "id": 0
+        "id": 0,
+        "diagramJson": {
+          "cells": [
+            {
+              "type": "tm.Process",
+              "size": {
+                "width": 100,
+                "height": 100
+              },
+              "position": {
+                "x": 385,
+                "y": 168
+              },
+              "angle": 0,
+              "id": "f9889bbe-313d-4052-854c-37e9a61451a9",
+              "z": 1,
+              "hasOpenThreats": false,
+              "privilegeLevel": "Normal",
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Collection and\nAnalysis\nprocess"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 51,
+                "y": 199
+              },
+              "angle": 0,
+              "id": "4446a7d4-f27e-4672-8ec5-ecc8b3a24e69",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Vendedor"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Boundary",
+              "smooth": true,
+              "source": {
+                "x": 52,
+                "y": 61
+              },
+              "target": {
+                "x": 352,
+                "y": 463
+              },
+              "vertices": [
+                {
+                  "x": 250,
+                  "y": 82
+                },
+                {
+                  "x": 272,
+                  "y": 234
+                }
+              ],
+              "id": "9297f3d4-fe7b-4309-a90a-8375b5872aae",
+              "z": 3,
+              "attrs": {}
+            },
+            {
+              "type": "tm.Flow",
+              "smooth": true,
+              "source": {
+                "id": "4446a7d4-f27e-4672-8ec5-ecc8b3a24e69"
+              },
+              "target": {
+                "id": "f9889bbe-313d-4052-854c-37e9a61451a9"
+              },
+              "vertices": [
+                {
+                  "x": 339,
+                  "y": 212
+                }
+              ],
+              "id": "3eac24cc-2cbf-443a-9546-96d4fd9d2cd7",
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "Dados de venda",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "z": 4,
+              "hasOpenThreats": false,
+              "protocol": "HTTPS",
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "attrs": {
+                ".marker-target": {
+                  "class": "marker-target hasNoOpenThreats isInScope"
+                },
+                ".connection": {
+                  "class": "connection hasNoOpenThreats isInScope"
+                }
+              }
+            }
+          ]
+        },
+        "size": {
+          "height": 590,
+          "width": 790
+        }
       }
     ],
     "reviewer": "Ricardo Pfitscher"
